@@ -61,7 +61,6 @@ export default function Menu({ currentPage, selectPage }) {
 					</div>
 				</motion.div>
 			</div>
-
 			<SocialIcons />
 		</motion.section>
 	);

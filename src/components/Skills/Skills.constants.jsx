@@ -2,6 +2,8 @@ import reactIcon from '../../assets/images/skills/react.png';
 import htmlIcon from '../../assets/images/skills/html.png';
 import cssIcon from '../../assets/images/skills/css.png';
 import bootstrapIcon from '../../assets/images/skills/bootstrap.png';
+import vueIcon from '../../assets/images/skills/vue.png';
+import angularIcon from '../../assets/images/skills/angular.png';
 import dotnetIcon from '../../assets/images/skills/dotnet.png';
 import sqlIcon from '../../assets/images/skills/db.png';
 import jsIcon from '../../assets/images/skills/js.png';
@@ -28,6 +30,8 @@ export const skillCat = {
 			{ name: 'Bootstrap', xp: '8 YRS', icon: bootstrapIcon },
 			{ name: 'react js', xp: '8 YRS', icon: reactIcon },
 			{ name: 'react native', xp: '6 YRS', icon: reactIcon },
+			{ name: 'Vue', xp: '8 YRS', icon: vueIcon },
+			{ name: 'Angular', xp: '8 YRS', icon: angularIcon },
 			{ name: 'flutter', xp: '5 YRS', icon: flutterIcon },
 			{ name: 'blockchain', xp: '5 YRS', icon: blockchainIcon },
 			{ name: 'AI', xp: '5 YRS', icon: chatGPTIcon },
