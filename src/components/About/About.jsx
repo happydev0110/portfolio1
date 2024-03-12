@@ -11,7 +11,7 @@ export default function About({ pageTitle }) {
 	return (
 		<motion.section className='about' variants={aboutAnim} initial='init' animate='anim' exit='end'>
 			<motion.h3 variants={iconsAnim}>Hello there, My name is</motion.h3>
-			<motion.h2 variants={nameAnim}>Zakharii Shatko</motion.h2>
+			<motion.h2 variants={nameAnim}>Serhii prykhodko</motion.h2>
 			<motion.h5 variants={iconsAnim}>- Senior Fullstack Developer -</motion.h5>
 
 			<motion.div className='skillsContainer' variants={iconsAnim}>
