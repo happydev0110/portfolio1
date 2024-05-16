@@ -37,6 +37,11 @@ import changelly from '../../assets/images/projects/_Changelly.PNG';
 import workTown from '../../assets/images/projects/_WorkTown.PNG';
 import puzzleSwap from '../../assets/images/projects/_PuzzleSwap.PNG';
 
+import allbirdsApp from '../../assets/images/projects/_Allbirds_Appstore.JPG';
+import akashx from '../../assets/images/projects/_Akashx.JPG';
+import fitnessApp from '../../assets/images/projects/_FintnessApp.JPG';
+import myDailyChoice from '../../assets/images/projects/_Mydailychoice.JPG';
+
 // Web
 import nationalMentoring from '../../assets/images/projects/_Capture.PNG';
 import restuarant from '../../assets/images/projects/_Capture1.PNG';
@@ -46,6 +51,7 @@ import geovea from '../../assets/images/projects/_Geovea.PNG';
 import luxury from '../../assets/images/projects/_Luxury.PNG';
 import sketchfab from '../../assets/images/projects/_Sketchfab.PNG';
 
+import allbirds from '../../assets/images/projects/_Allbirds.JPG';
 
 export const web = [
 	// {
@@ -71,6 +77,12 @@ export const web = [
 		date: '2019-03-27',
 		cover: sketchfab,
 		links: [{ icon: webLink, link: 'https://sketchfab.com/' }],
+	},
+	{
+		name: 'Allbirds',
+		date: '2021-08-10',
+		cover: allbirds,
+		links: [{ icon: webLink, link: 'https://www.allbirds.com/' }],
 	},
 	{
 		name: 'Luxury Furniture Store',
@@ -167,6 +179,31 @@ export const game = [
 		cover: eshopWebApp,
 		links: [{ icon: dribbbleLink, link: 'https://demo.evershop.io' }],
 	},
+	{
+		name: 'MyDailyChoice',
+		date: '2023-2-12',
+		cover: myDailyChoice,
+		links: [{ icon: dribbbleLink, link: 'https://play.google.com/store/apps/details?id=com.mlmprotec.mydailychoice&hl=en_US&gl=US' }],
+	},
+	{
+		name: 'Akashx',
+		date: '2022-10-03',
+		cover: akashx,
+		links: [{ icon: dribbbleLink, link: 'https://play.google.com/store/apps/details?id=com.akashx.protec' }],
+	},
+	{
+		name: 'Fintenss',
+		date: '2022-8-23',
+		cover: fitnessApp,
+		links: [{ icon: dribbbleLink, link: 'https://play.google.com/store/apps/details?id=com.onepeloton.callisto&hl=en_US&gl=US' }],
+	},
+	{
+		name: 'Allbirds',
+		date: '2022-8-23',
+		cover: allbirdsApp,
+		links: [{ icon: dribbbleLink, link: 'https://apps.apple.com/us/app/allbirds/id1495911336' }],
+	},
+	// allbirdsApp
 	{
 		name: 'Changelly',
 		date: '2023-12-23',
