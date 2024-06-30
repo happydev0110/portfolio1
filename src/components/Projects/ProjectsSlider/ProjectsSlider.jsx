@@ -1,18 +1,18 @@
 import React, { useRef, useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import Flicking from '@egjs/react-flicking';
-import { Arrow } from '@egjs/flicking-plugins';
+// import { Arrow } from '@egjs/flicking-plugins';
 import '@egjs/react-flicking/dist/flicking.css';
 import '@egjs/flicking-plugins/dist/arrow.css';
 
 import { projCatAnim } from '../Projects.anim';
 
 export default function ProjectsSlider({ category, data }) {
-	const [getElement, setGetElement] = useState(null);
+	// const [getElement, setGetElement] = useState(null);
 	const ref = useRef(null);
 
 	useEffect(() => {
-		setGetElement(ref.current);
+		// setGetElement(ref.current);
 	}, []);
 
 	return (
@@ -20,19 +20,20 @@ export default function ProjectsSlider({ category, data }) {
 			<h1>{category}</h1>
 			<div className='carouselContainer' ref={ref}>
 				<Flicking
-					plugins={[
-						new Arrow({
-							parentEl: getElement,
-						}),
-					]}
-					inputType={[]}
+					// plugins={[
+					// 	new Arrow({
+					// 		parentEl: getElement,
+					// 	}),
+					// ]}
+					// plugins={new Arrow()}
+					// inputType={[]}
 					preventClickOnDrag={true}
 					moveType='snap'
-					circularFallback='bound'
+					// circularFallback='bound'
 					align={'center'}
-					deceleration={0.02}
+					// deceleration={0.02}
 					circular={true}
-					renderOnlyVisible
+					// renderOnlyVisible
 				>
 					{data
 						.sort((a, d) => (a.date > d.date ? -1 : 1))
